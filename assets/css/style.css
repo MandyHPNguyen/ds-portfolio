@@ -415,44 +415,37 @@ section {
 }
 
 .facts .count-box a:hover {
-  color: #1f5297;
+  color: #800080;
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
+
+.skills .skill-list {
+  position: absolute;
+}
+
+.skills .category {
+  position: relative;
+  float: left;
+  /* padding: 3px;  */
+  height: auto;
   display: block;
   background: none;
   border-radius: 0;
 }
 
-.skills .progress .skill {
-  padding: 0;
-  margin: 0 0 6px 0;
+.skills .skill {
+  position: relative;
+  float: right;
+  border-radius: 100px;
+  background: #E090DF;
+  padding: 0px 10px 0px 10px;
   text-transform: uppercase;
-  display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #050d18;
-}
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
-}
-
-.skills .progress-bar-wrap {
-  background: #dce8f8;
-  height: 10px;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #800080;
 }
 
 /*--------------------------------------------------------------
@@ -469,7 +462,7 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #1f5297;
+  border-left: 2px solid #800080;
   position: relative;
 }
 
@@ -513,7 +506,7 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #1f5297;
+  border: 2px solid #800080;
 }
 
 /*--------------------------------------------------------------
