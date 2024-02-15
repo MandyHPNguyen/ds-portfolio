@@ -33,6 +33,13 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+code {
+  font-size: 1.3em;
+  /*background-color: #eee;*/
+  /*border: 1px solid #999;*/
+  /*display: block;*/
+  /*padding: 20px;*/
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
