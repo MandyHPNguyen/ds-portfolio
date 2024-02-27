@@ -1934,7 +1934,7 @@ ul.homepage-social-links li:last-child a {
   }
 
   .site-title {
-    font-size: 27px;
+    font-size: 1.5em;
   }
 
   .mobile-header {
@@ -1954,7 +1954,7 @@ ul.homepage-social-links li:last-child a {
   .mobile-site-title {
     display: inline-block;
     float: left;
-    font-size: 18px;
+    font-size: 1em;
     font-weight: 400;
     font-family: 'Oxygen', Helvetica, sans-serif;
     margin: 0;
