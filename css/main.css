@@ -942,7 +942,31 @@ ul.social-links li:last-child a {
   background-color: #9161e0;
 }
 
+/* Skill Tags Block */
+.skill-tags-block {
+  /*margin: auto;*/
+  margin-bottom: 1em;
+}
 
+.skill-tags {
+  list-style: none;
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+}
+
+.skill-tags li {
+  display: inline-block;
+  margin: auto;
+}
+
+.skill-tags li a {
+  font-size: 13px;
+  color: #555;
+  padding: 2px 7px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+}
+/* /Skill Tag Block */
 
 /* ============================================================================= 
 7. Subpages
