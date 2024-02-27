@@ -180,7 +180,7 @@
             items: 1,
             autoplay: true,
             autoplayHoverPause: false,
-            autoplayTimeout: 3800,
+            autoplayTimeout: 2500,
             animateOut: 'zoomOut',
             animateIn: 'zoomIn'
         });

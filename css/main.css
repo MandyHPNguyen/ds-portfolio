@@ -927,7 +927,7 @@ ul.social-links li:last-child a {
 .block-title h3 {
   display: inline-block;
   position: relative;
-  margin: 0 0 20px;
+  margin: 0 0 0.5em;
   padding: 0;
 }
 
@@ -1008,7 +1008,7 @@ ul.social-links li:last-child a {
 .home-page-description {
   color: #222;
   /*font-size: 21px;*/
-  font-size: 1.7em;
+  font-size: 1.25em;
   font-weight: 300;
   font-family: 'Oxygen', Helvetica, sans-serif;
   margin: 0.2em auto;
@@ -1082,7 +1082,7 @@ ul.homepage-social-links li:last-child a {
 }
 
 .info-list li {
-  padding: 5px 0;
+  padding: 0.2em 0;
   font-size: 14px;
 }
 
@@ -1272,22 +1272,42 @@ ul.homepage-social-links li:last-child a {
 /* Timeline  */
 .timeline {
   position: relative;
-  border-left: 1px solid #f5f5f5;
+  border-left: 1.5px solid #f5f5f5;
   padding-bottom: 10px;
 }
   
 .timeline-event {
   position: relative;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 10px;
+  /*padding-bottom: 0.1em;*/
 }
   
 .timeline-event:last-child {
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
 .timeline-event > * {
   display: block;
+}
+.timeline-event p {
+  position: relative;
+  padding: 0.25em 0 0 0;
+  margin: 0;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1.30em;
+}
+
+.timeline-event ul li {
+  list-style-type: square;
+  position: relative;
+  top: -1em;
+  left: -1.65em;
+  padding: 0;
+  margin: 0;
+  font-size: 0.85em;
+  font-weight: 500;
+  line-height: 1.30em;
 }
   
 .event-date {
@@ -1328,11 +1348,12 @@ ul.homepage-social-links li:last-child a {
 }
 
 .event-description {
-  color: #a5a5a5;
-  margin: 0 0 4px;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.45em;
+  /*color: #a5a5a5;*/
+  color: #888;
+  margin: 0;
+  font-size: 0.75em;
+  font-weight: 500;
+  line-height: 1.4em;
 }
 
 /* Skills */
