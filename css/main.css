@@ -2004,7 +2004,7 @@ ul.homepage-social-links li:last-child a {
     text-align: left;
   }
 
-  .mobile-site-title {
+  .mobile-site-title a {
     display: inline-block;
     float: left;
     color: #777;
