@@ -1278,8 +1278,7 @@ ul.homepage-social-links li:last-child a {
   
 .timeline-event {
   position: relative;
-  padding-left: 10px;
-  /*padding-bottom: 0.1em;*/
+  padding: 0 0 0 10px;
 }
   
 .timeline-event:last-child {
@@ -1301,25 +1300,29 @@ ul.homepage-social-links li:last-child a {
 .timeline-event ul li {
   list-style-type: square;
   position: relative;
-  top: -1em;
+  text-justify: inter-word;
+  top: -1.5em;
   left: -1.65em;
   padding: 0;
   margin: 0;
   font-size: 0.85em;
   font-weight: 500;
-  line-height: 1.30em;
+  line-height: 1.35em;
+}
+
+.timeline-event ul li:last-child {
+  margin-bottom: -2em;
 }
   
 .event-date {
   display: inline-block;
   position: relative;
+  margin:0 0 0 -20px;
   color: #fff;
   font-weight: 300;
   line-height: 1.1em;
-  margin: 0 0 3px;
   background-color: #9161e0;
-  padding: 5px 8px 5px 20px;
-  margin-left: -20px;
+  padding: 0.3em 0.3em 0.3em 20px;
 }
 
 .event-date .event-icon {
@@ -1347,13 +1350,38 @@ ul.homepage-social-links li:last-child a {
   margin: 10px 0 0;
 }
 
+/*.event-description {*/
+/*  !*color: #a5a5a5;*!*/
+/*  position: relative;*/
+/*  display: inline-block;*/
+/*  color: #888;*/
+/*  margin: 0;*/
+/*  font-size: 0.75em;*/
+/*  font-weight: 500;*/
+/*  line-height: 1.4em;*/
+/*}*/
+
 .event-description {
-  /*color: #a5a5a5;*/
+  font-size: 0;
+  /*padding: 5px 0 0 0;*/
+}
+
+.event-description > span,
+.event-description > a {
   color: #888;
-  margin: 0;
-  font-size: 0.75em;
+  display: inline-block;
+  width: 46%;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 1.4em;
+  line-height: 1.25em;
+}
+
+.event-description > span {
+  text-align: left;
+}
+
+.event-description > a {
+  text-align: right;
 }
 
 /* Skills */
@@ -1569,7 +1597,7 @@ ul.homepage-social-links li:last-child a {
   width: 100%;
   display: block;
   margin: 0;
-  padding: 10px 10px 10px 0;
+  padding: 0.25em 0 0.25em 0;
 }
 
 .contact-info-block:last-child {
@@ -1579,12 +1607,12 @@ ul.homepage-social-links li:last-child a {
 .contact-info-block .ci-icon {
   position: absolute;
   top: 50%;
-  margin-top: -15px;
+  margin-top: -.95em;
 }
 
-.ci-text {
+.contact-info-block .ci-text {
   position: relative;
-  padding-left: 50px;
+  padding-left: 45px;
 }
 
 .contact-info-block h5 {
@@ -1596,6 +1624,14 @@ ul.homepage-social-links li:last-child a {
   font-size: 30px;
   color: #9161e0;
 }
+
+.contact-info-block .fa {
+  position: relative;
+  font-size: 25px;
+  color: #9161e0;
+  /*margin-left: 0.25em;*/
+}
+
 /* /Contact info */
 
 
