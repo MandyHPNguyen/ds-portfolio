@@ -236,6 +236,35 @@ textarea.form-control, textarea.form-control:focus {
   color: #9161e0;
 }
 
+/* Page Navigation */
+
+.page-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2em;
+  text-align: center;
+}
+.page-nav li {
+  display: inline-block;
+}
+
+.page-nav li a,
+.page-nav li a:hover {
+  color: #888;
+  text-decoration: none;
+}
+
+.page-nav li a:hover {
+  background-color: #eee;
+}
+
+.page-nav li.active a,
+.page-nav li.active a:hover {
+  background-color: #9161e0;
+  color: #fff;
+}
+/* /Page Navigation */
+
 /* Placeholders */
 .form-control::-moz-placeholder {
   color: #aaa;
@@ -1296,11 +1325,11 @@ ul.homepage-social-links li:last-child a {
 .timeline-event ul li {
   list-style-type: square;
   position: relative;
-  text-justify: inter-word;
+  text-align: justify;
   top: -1.5em;
   left: -1.65em;
   padding: 0;
-  margin: 0;
+  margin: 0 10px 0 0;
   font-size: 0.85em;
   font-weight: 500;
   line-height: 1.35em;
@@ -1357,28 +1386,48 @@ ul.homepage-social-links li:last-child a {
 /*  line-height: 1.4em;*/
 /*}*/
 
-.event-description {
-  font-size: 0;
-  /*padding: 5px 0 0 0;*/
-}
+/*.event-description {*/
+/*  font-size: 0;*/
+/*  !*padding: 5px 0 0 0;*!*/
+/*}*/
 
-.event-description > span,
-.event-description > a {
+/*.event-description > span,*/
+/*.event-description > a {*/
+/*  color: #888;*/
+/*  display: inline-block;*/
+/*  width: 47.75%;*/
+/*  font-size: 12px;*/
+/*  font-weight: 500;*/
+/*  line-height: 1.25em;*/
+/*}*/
+
+/*.event-description > span {*/
+/*  text-align: left;*/
+/*}*/
+
+/*.event-description > a {*/
+/*  text-align: right;*/
+/*}*/
+
+/*.event-description .firm {*/
+/*  float: left;*/
+/*}*/
+
+/*.event-description .location {*/
+/*  float: right;*/
+/*}*/
+
+.event-description {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2.5em 2em 0;
   color: #888;
-  display: inline-block;
-  width: 46%;
   font-size: 12px;
   font-weight: 500;
-  line-height: 1.25em;
+  line-height: 1.4em;
 }
 
-.event-description > span {
-  text-align: left;
-}
 
-.event-description > a {
-  text-align: right;
-}
 
 /* Skills */
 .skills-info {
