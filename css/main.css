@@ -1150,9 +1150,26 @@ ul.homepage-social-links li:last-child a {
 }
 
 .service-icon {
-  font-size: 60px;
+  font-size: 40px;
   color: #9161e0;
-  margin: 5px 0 18px;
+  margin: 0 0.15em 0;
+}
+
+.service-block h4 {
+  color: #222;
+  font-family: 'Oxygen', Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.25em;
+  margin-top: 0.115em;
+  margin-bottom: 0.15em;
+}
+
+.service-block p {
+  /*color: #888;*/
+  margin-top: 1em;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.25em;
 }
 /* /Services */
 
@@ -1375,48 +1392,6 @@ ul.homepage-social-links li:last-child a {
   margin: 10px 0 0;
 }
 
-/*.event-description {*/
-/*  !*color: #a5a5a5;*!*/
-/*  position: relative;*/
-/*  display: inline-block;*/
-/*  color: #888;*/
-/*  margin: 0;*/
-/*  font-size: 0.75em;*/
-/*  font-weight: 500;*/
-/*  line-height: 1.4em;*/
-/*}*/
-
-/*.event-description {*/
-/*  font-size: 0;*/
-/*  !*padding: 5px 0 0 0;*!*/
-/*}*/
-
-/*.event-description > span,*/
-/*.event-description > a {*/
-/*  color: #888;*/
-/*  display: inline-block;*/
-/*  width: 47.75%;*/
-/*  font-size: 12px;*/
-/*  font-weight: 500;*/
-/*  line-height: 1.25em;*/
-/*}*/
-
-/*.event-description > span {*/
-/*  text-align: left;*/
-/*}*/
-
-/*.event-description > a {*/
-/*  text-align: right;*/
-/*}*/
-
-/*.event-description .firm {*/
-/*  float: left;*/
-/*}*/
-
-/*.event-description .location {*/
-/*  float: right;*/
-/*}*/
-
 .event-description {
   display: flex;
   justify-content: space-between;
@@ -1427,7 +1402,7 @@ ul.homepage-social-links li:last-child a {
   line-height: 1.4em;
 }
 
-
+/* / Timeline */
 
 /* Skills */
 .skills-info {
