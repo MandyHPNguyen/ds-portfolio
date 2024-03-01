@@ -1500,6 +1500,15 @@ ul.homepage-social-links li:last-child a {
   width: 100%;
 }
 
+.portfolio-grid h4 {
+  color: #222;
+  text-align: center;
+  font-family: 'Oxygen', Helvetica, sans-serif;
+  font-weight: 700;
+  line-height: 1.15em;
+  margin: 0.5em 0 0.5em 0;
+}
+
 .portfolio-filters {
   list-style: none;
   padding: 0;
