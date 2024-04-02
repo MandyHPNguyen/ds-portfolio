@@ -1,1 +1,3 @@
-# Data Science Portfolio by Mandy HP Nguyen
+# Mandy HP Nguyen's Website Repository
+
+View website at [www.mandyhpnguyen.com](www.mandyhpnguyen.com)
